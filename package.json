@@ -1,0 +1,26 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "message.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Almost/sass-babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Almost/sass-babel/issues"
+  },
+  "homepage": "https://github.com/Mr-Almost/sass-babel#readme"
+}
