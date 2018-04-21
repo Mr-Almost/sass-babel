@@ -24,11 +24,19 @@ module.exports = {
         use: [{
             loader: "style-loader" // creates style nodes from JS strings
         }, {
-            loader: "css-loader" // translates CSS into CommonJS
-        }, {
-            loader: "sass-loader" // compiles Sass to CSS
-        }]
+            loader: "css-loader" ,// translates CSS into CommonJS
+            options: { importLoaders: 1 }
+       
+          }, {
+          loader: "postcss-loader" // compiles Sass to CSS
+      },{
+        loader: "sass-loader" // compiles Sass to CSS
+    }
+    
+    ]
      }
+      
   ]
 }
 }
+
